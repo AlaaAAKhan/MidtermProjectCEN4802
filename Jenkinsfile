@@ -21,7 +21,7 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                sh 'docker build -t discount-app .'
+                sh '/usr/local/bin/docker build -t discount-app .'
             }
         }
     }
