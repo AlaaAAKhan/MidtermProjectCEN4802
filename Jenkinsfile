@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    environment {
+            PATH = "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:${env.PATH}"
+        }
+
     tools {
     maven 'Maven3'
     jdk 'JDK17'
@@ -21,7 +25,7 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                sh '/usr/local/bin/docker build -t discount-app .'
+                sh 'docker build -t discount-app .'
             }
         }
     }
