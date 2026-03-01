@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Users/alaa/Library/Java/JavaVirtualMachines/corretto-24.0.2/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Applications/BAS Folders/2. Spring 2026/Software Integration- Configuration-Testing/MidtermProjectCEN4802/target/surefire/surefirebooter-20260228203555123_3.jar /Applications/BAS Folders/2. Spring 2026/Software Integration- Configuration-Testing/MidtermProjectCEN4802/target/surefire 2026-02-28T20-35-55_083-jvmRun1 surefire-20260228203555123_1tmp surefire_0-20260228203555123_2tmp"/>
+    <property name="sun.java.command" value="/Applications/BAS Folders/2. Spring 2026/Software Integration- Configuration-Testing/MidtermProjectCEN4802/target/surefire/surefirebooter-20260228211110741_3.jar /Applications/BAS Folders/2. Spring 2026/Software Integration- Configuration-Testing/MidtermProjectCEN4802/target/surefire 2026-02-28T21-11-10_702-jvmRun1 surefire-20260228211110741_1tmp surefire_0-20260228211110741_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Applications/BAS Folders/2. Spring 2026/Software Integration- Configuration-Testing/MidtermProjectCEN4802/target/test-classes:/Applications/BAS Folders/2. Spring 2026/Software Integration- Configuration-Testing/MidtermProjectCEN4802/target/classes:/Users/alaa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/alaa/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/alaa/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/alaa/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Applications/BAS Folders/2. Spring 2026/Software Integration- Configuration-Testing/MidtermProjectCEN4802/target/surefire/surefirebooter-20260228203555123_3.jar"/>
+    <property name="surefire.real.class.path" value="/Applications/BAS Folders/2. Spring 2026/Software Integration- Configuration-Testing/MidtermProjectCEN4802/target/surefire/surefirebooter-20260228211110741_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="24.0.2+12-FR"/>
@@ -59,9 +59,9 @@
     <property name="java.class.version" value="68.0"/>
   </properties>
   <testcase name="PercentageOver100" classname="DiscountCalculatorTest" time="0.008"/>
-  <testcase name="NoDiscount" classname="DiscountCalculatorTest" time="0.0"/>
-  <testcase name="discountCalculatorSuccess" classname="DiscountCalculatorTest" time="0.001"/>
+  <testcase name="NoDiscount" classname="DiscountCalculatorTest" time="0.001"/>
+  <testcase name="discountCalculatorSuccess" classname="DiscountCalculatorTest" time="0.0"/>
   <testcase name="FullDiscount" classname="DiscountCalculatorTest" time="0.0"/>
   <testcase name="PriceLessThanZeroSuccess" classname="DiscountCalculatorTest" time="0.0"/>
-  <testcase name="PriceAsAVeryLowDouble" classname="DiscountCalculatorTest" time="0.001"/>
+  <testcase name="PriceAsAVeryLowDouble" classname="DiscountCalculatorTest" time="0.0"/>
 </testsuite>
